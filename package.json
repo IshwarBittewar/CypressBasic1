@@ -1,0 +1,26 @@
+{
+  "name": "18novcypress",
+  "version": "1.0.0",
+  "description": "automation with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:chrome": "cypress run --browser chrome --headed",
+    "cy:firefox": "cypress run --browser firefox",
+    "cy:edge": "cypress run --browser edge --headed",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cypress js "
+  },
+  "keywords": [
+    "praticeofCypress"
+  ],
+  "author": "eishwar",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cypress": "^12.5.1"
+  }
+}
