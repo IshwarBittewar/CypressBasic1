@@ -18,6 +18,7 @@ describe("testing the contact us",() =>{
     cy.get('#submit-button').click()
 
     cy.url().should('include','Wine')
+    cy.get().title().log
 
         }
 
